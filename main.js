@@ -1,6 +1,7 @@
 // Agarramos los elementos en constante para poder manipularlos
-const pokeUrl = 'https://pokeapi.co/api/v2/pokemon/'
+
 const searchPoke = document.getElementById('searchPoke');
+const pokeUrl = 'https://pokeapi.co/api/v2/pokemon/'
 const btnSearch = document.getElementById('btnSearch');
 const screenPoke= document.querySelector('.screenPoke');
 const screenPoke2 = document.querySelector('.screenPoke2');
