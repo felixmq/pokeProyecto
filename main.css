@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/PokeDex/pokemon-party.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+.container{
+    
+    background-color: rgba(255, 0, 0, 0.932);
+    margin-top: 10px;
+    width: 30rem;
+    height: 700px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 3px;
+}
+
+.screenPoke{
+    background-color: rgb(34, 110, 177);
+    width: 20rem;
+    height: 250px;
+    margin: 20px auto;
+    border-radius:  12px;
+    border: 7px solid ;
+    position: relative;
+    z-index: +2;
+}
+
+.who{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+}
+
+.btnSearch{
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    border-radius: 8px;
+    width: 20rem;
+    height: 30px;
+    background-color: rgb(34, 177, 134);
+    border: 3px solid;
+}
+
+button{
+    display: block;
+    margin: 10px auto;
+    width: 20rem;
+    height: 2rem;
+    background-color: rgb(34, 110, 177);
+    border: 5px solid;
+}
+
+.loading {
+    background-color: rgb(170, 192, 212);
+    width: 20rem;
+    height: 40px;
+    margin: 10px auto;
+    display: grid;
+    gap: 1px;
+    grid-template-columns: auto auto auto auto;
+    border-radius: 10px;
+}
+
+.loading1, .loading2, .loading3, .loading4{
+
+    width: 4.3rem;
+    margin: 5px;
+    padding: 3px;
+    background-color: rgb(37, 143, 143);
+
+}
+
+.screenPoke2{
+    background-color: rgb(34, 177, 134);
+    width: 20rem;
+    height: 250px;
+    margin: 20px auto;
+    border-radius:  10px;
+    border: 7px solid ;
+}
+
+h2, h3{
+    padding: 5px;
+    margin: 0 5px;
+}
+
+li {
+    margin-left: 20px;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 180px;
+    image-rendering: auto;
+}
+
+.name{
+    text-align: center;
+}
+
+
+@media  (max-width: 600px) {
+
+    .container{
+        background-color: aqua;
+        
+    }
+    .screenPoke{
+        width: 17rem;
+    }
+    input{
+        width: 17rem;
+    }
+    .loading{
+        width: 17rem;
+    }
+    .loading1, .loading2, .loading3, .loading4 {
+        width: 3rem;
+    }
+    .screenPoke2{
+        width: 17rem;
+    }
+    button{
+        width: 17rem;
+    }
+}
+
+
